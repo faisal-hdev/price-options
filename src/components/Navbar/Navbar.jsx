@@ -4,7 +4,7 @@ import { RiMenu2Fill } from "react-icons/ri";
 import { MdOutlineClose } from "react-icons/md";
 
 const Navbar = () => {
-  const [open, setOpen] = useState([]);
+  const [open, setOpen] = useState([true]);
 
   const routes = [
     { id: 1, path: "/", name: "Home" },
